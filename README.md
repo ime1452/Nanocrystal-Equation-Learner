@@ -34,7 +34,6 @@ The repository uses the following libraries:
 - Core training/data stack: `torch`, `numpy`, `pandas`, `scipy`, `scikit-learn`, `optuna`, `openpyxl`
 - Analysis and visualization: `sympy`, `matplotlib`, `tqdm`
 - Traditional ML baselines: `xgboost`, `lightgbm`, `catboost`
-- Additional experimental utilities in the repository may use: `pysr`, `pyoperon`, `psrn`
 
 ## Workflow
 
