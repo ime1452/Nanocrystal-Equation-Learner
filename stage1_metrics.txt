@@ -1,0 +1,20 @@
+================ Stage 1 Metrics ================
+Descriptor Set    - new
+Data Split        - default
+Train Data File   - train_data.xlsx
+Test Data File    - test_data.xlsx
+Target Transform  - robust
+Epoch Mode       - fixed
+Train Set (Full) - MSE: 15.2330, MAE: 2.5928, R2: 0.7796
+Test Set         - MSE: 23.9623, MAE: 3.3745, R2: 0.6517
+Optuna Best MSE  - nan
+OOF Curve Min MSE- nan
+Final Train Epoch - 29
+=================================================
+============= Hybrid Attention Weights (Mean over batch) =============
+Inorg: Mass (alpha) = 0.8119, Activity (beta) = 0.1881
+Org:   Mass (alpha) = 0.6607, Activity (beta) = 0.3393
+======================================================================
+
+Best Parameters:
+{'hidden_dim': 32, 'early_dim': 4, 'lr': 0.0001964515812554643, 'l1_lambda': 0.0005654325985956404, 'batch_size': 32, 'max_norm': 4.3886594848266425, 'weight_decay': 0.0002524525741413435, 't_0': 2, 't_mult': 2, 'beta': 0.8435849279110961, 'gate_lr_mult': 10, 'eql_depth': 3}

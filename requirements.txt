@@ -1,0 +1,19 @@
+# Core numerical and training stack
+numpy>=1.23
+pandas>=1.5
+scipy>=1.10
+scikit-learn>=1.2
+torch>=2.1
+optuna>=3.0
+openpyxl>=3.1
+
+# Visualization and symbolic math utilities
+matplotlib>=3.7
+sympy>=1.12
+tqdm>=4.66
+
+# Traditional ML baselines and feature-selection scripts
+xgboost>=2.0
+lightgbm>=4.0
+catboost>=1.2
+
